@@ -3,7 +3,6 @@
 // The contract shows that he is the owner of the contract.
 // However, his contract is not working. What's he missing?
 
-
 #[starknet::interface]
 trait IJoesContract<TContractState> {
     fn get_owner(self: @TContractState) -> felt252;
